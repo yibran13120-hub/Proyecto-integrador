@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Subiendo proyecto Java completo"
+git branch -M main
+git remote add origin https://github.com/yibran13120-hub/Proyecto-integrador.git
+git push -u origin main
