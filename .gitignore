@@ -1,6 +1,17 @@
+# Inicializa el repositorio local
 git init
+
+# Agrega todos los archivos
 git add .
-git commit -m "Subiendo proyecto Java completo"
+
+# Crea el commit inicial
+git commit -m "Nuevo proyecto"
+
+# Configura la rama principal
 git branch -M main
-git remote add origin https://github.com/yibran13120-hub/Proyecto-integrador.git
-git push -u origin main
+
+# Conecta con tu repositorio en GitHub
+git remote add origin https://github.com/yibran13120-hub/Proyecto-integrador
+
+# Sobrescribe el contenido anterior
+git push --force origin main
